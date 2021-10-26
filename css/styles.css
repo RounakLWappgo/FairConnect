@@ -1,0 +1,48 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.main-container{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.layout-30percent{
+    width: 30%;
+    height: 100%;
+    padding: 0;
+}
+.layout-70percent{
+    width: 70%;
+    height: 100%;
+padding: 0;
+}
+.video-30percent{
+    width: 100%;
+    height: 100%;
+}
+.video-70percent{
+    width: 100%;
+    height: 100%;
+}
+.layout-74percent{
+width: 100%;
+height: 74.4vh;
+}
+.layout-18percent{
+    width: 100%;
+    height: 18.74vh;
+    }
+.layout-6percent{
+    width: 100%;
+    height: 6.87vh;
+}
+.layout-80percent{
+    width: 80%;
+    height: 100%;
+}
+.layout-10percent{
+    width: 10%;
+    height: 100%;
+}
