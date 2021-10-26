@@ -103,7 +103,7 @@ height: 74.4vh;
   .marquee .inner span {
     height: 100%;
     color: white;
-    font-size: 25px;
+    font-size: 2vw;
     font-weight: 700;
     margin-right: 100px !important;
   }
