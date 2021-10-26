@@ -10,7 +10,7 @@ function display_ct6() {
         x.getMinutes() +
         ":" +
         x.getSeconds() +
-        ":" +
+        " " +
         ampm;
     document.getElementById("ct6").innerHTML = x1;
     document.getElementById("ct5").innerHTML = x2;
