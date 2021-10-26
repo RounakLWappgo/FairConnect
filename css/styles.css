@@ -73,3 +73,31 @@ height: 74.4vh;
 #vid-18{
     display: none;
 }
+.hwrap {
+    overflow: hidden; 
+    height: 100%;
+  }
+
+  .hmove {
+      height: 100%;
+      width: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+  .hitem {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    width:100%;
+    right:0;
+    overflow: hidden;
+    pointer-events: none;
+    animation: marquee 10s linear infinite;
+  }
+   
+  @keyframes marquee {
+    0%   { transform: translate(100%, 0); }
+    100% { transform: translate(-70%, 0); }
+}
