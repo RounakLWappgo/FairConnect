@@ -14,8 +14,8 @@ function display_ct6() {
         ampm;
     document.getElementById("ct6").innerHTML = x1;
     document.getElementById("ct5").innerHTML = x2;
-    window_size = $(window).height();
-    $(".main-container").css("height", window_size)
+    // window_size = $(window).height();
+    // $(".main-container").css("height", window_size)
     display_c6();
 }
 function display_c6() {
