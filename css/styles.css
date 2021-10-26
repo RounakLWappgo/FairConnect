@@ -21,10 +21,12 @@
 padding: 0;
 }
 .video-30percent{
+    object-fit: fill;
     width: 100%;
     height: 100%;
 }
 .video-70percent{
+    object-fit: fill;
     width: 100%;
     height: 100%;
 }
@@ -53,18 +55,22 @@ height: 74.4vh;
     height: 100%;
 }
 .video-18percent{
+    object-fit: fill;
     width: 100%;
     height: 100%;
 }
 .img-70percent{
+    object-fit: fill;
     width: 100%;
     height: 100%;
 }
 .img-30percent{
+    object-fit: fill;
     width: 100%;
     height: 100%;
 }
 .img-18percent{
+    object-fit: fill;
     width: 100%;
     height: 100%;
 }
@@ -77,34 +83,31 @@ height: 74.4vh;
 #vid-18{
     display: none;
 }
-.hwrap {
-    overflow: hidden; 
+.marquee {
     height: 100%;
-  }
-
-  .hmove {
-      height: 100%;
-      width: 100%;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-}
-
-  .hitem {
-    color: white;
-    font-size: 30px;
-    font-weight: 700;
-    width:100%;
-    right:0;
+    width: 100%;
     overflow: hidden;
-    pointer-events: none;
-    animation: marquee 10s linear infinite;
   }
-   
-  @keyframes marquee {
-    0%   { transform: translate(100%, 0); }
-    100% { transform: translate(-70%, 0); }
-}
+  .marquee .inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    color: white;
+    align-items: center;
+    }
+  .marquee .inner > * {
+    white-space: nowrap;
+    padding: 0 4rem;
+  }
+  
+  .marquee .inner span {
+    height: 100%;
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 100px !important;
+  }
+
 .layout-date{
     display: flex;
     justify-content: center;
